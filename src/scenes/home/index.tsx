@@ -1,7 +1,7 @@
 import { Icon } from "@iconify/react";
 import { TypeAnimation } from "react-type-animation";
 import useMediaQuery from "../hooks/useMediaQuery";
-import wt from "./src/assets/wundertrading2.webp";
+import wt from "./src/assets/wt.png";
 
 const Home = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
