@@ -32,7 +32,7 @@ function App() {
     <div>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img
-          src="./src/assets/bg.png"
+          src="/src/assets/bg.png"
           className={`object-cover ${isAboveMediumScreens ? "" : "w-full h-full"}`}
         />
       </div>
