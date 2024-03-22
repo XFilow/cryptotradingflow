@@ -1,7 +1,14 @@
-/* <img
-                src="./src/assets/1.png"
-                className="max-w-5xl mt-7 mb-7"
-              /> */
+import img1 from "./assets/1.jpg";
+import img2 from "./assets/2.jpg";
+import img3 from "./assets/3.jpg";
+import img4 from "./assets/4.jpg";
+import img5 from "./assets/5.jpg";
+import img6 from "./assets/6.jpg";
+import img7 from "./assets/7.jpg";
+import img8 from "./assets/8.jpg";
+import img9 from "./assets/9.jpg";
+import img10 from "./assets/10.jpg";
+import img11 from "./assets/11.jpg";
 
 const HowToInstall = () => {
   return (
@@ -90,19 +97,13 @@ const HowToInstall = () => {
             </h2>
             <ul className="w-full ml-4 list-disc md:pl-6">
               <div>
-                <img
-                  src="./src/assets/1.jpg"
-                  className="md:max-w-5xl mt-7 mb-7"
-                />
+                <img src={img1} className="md:max-w-5xl mt-7 mb-7" />
               </div>
 
               <li className="mb-2">
                 Go to your account page and select the API Management tab
               </li>
-              <img
-                src="./src/assets/2.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img2} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Click on the yellow button that says “Create API”
               </li>
@@ -110,10 +111,7 @@ const HowToInstall = () => {
                 Set a name to your Binance API, for example something like:
                 Binance-Futures-API
               </li>
-              <img
-                src="./src/assets/3.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img3} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 The API edit screen will appear with all boxes unchecked except
                 the Enable Reading
@@ -125,10 +123,7 @@ const HowToInstall = () => {
                 , you'll need them later!
               </li>
               <li className="mb-2">Click on Edit restrictions </li>
-              <img
-                src="./src/assets/4.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img4} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Select the option “Restrict access to trusted IPs only
                 (Recommended)”
@@ -164,18 +159,12 @@ const HowToInstall = () => {
                   articles/6866348-binance-ip-whitelisting
                 </a>
               </li>
-              <img
-                src="./src/assets/5.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img5} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Click the checkbox that says “Enable Futures” then click Save
                 and that’s it, the API is done.
               </li>
-              <img
-                src="./src/assets/6.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img6} className="md:max-w-5xl mt-7 mb-7" />
             </ul>
           </li>
           <li className="pb-3 mb-2 tracking-wider transition duration-150 ease-in-out bg-black shadow-sm focus:bg-gray-950 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-950 active:shadow-lg px-7 opacity-90 shadow-gray-400/50">
@@ -219,10 +208,7 @@ const HowToInstall = () => {
               Connect Wundertrading to your Binance account{" "}
             </h2>
             <ul className="w-full ml-4 list-disc md:pl-6">
-              <img
-                src="./src/assets/7.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img7} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Click on the blue button that says “Connect an exchange”
               </li>
@@ -233,10 +219,7 @@ const HowToInstall = () => {
               Connecting to the Binance API
             </h2>
             <ul className="w-full ml-4 list-disc md:pl-6">
-              <img
-                src="./src/assets/8.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img8} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Select on the Exchange Tab the exchange “BINANCE-FUTURES
                 (USDT-M)”
@@ -502,17 +485,11 @@ const HowToInstall = () => {
               pair
             </h2>
             <ul className="w-full ml-4 list-disc md:pl-6">
-              <img
-                src="./src/assets/9.jpg"
-                className="md:max-w-5xl mt-7 mb-7 opacity"
-              />
+              <img src={img9} className="md:max-w-5xl mt-7 mb-7 opacity" />
               <li className="mb-2">
                 Under the Derivatives tab select USDⓈ-M Futures
               </li>
-              <img
-                src="./src/assets/10.jpg"
-                className="md:max-w-5xl mt-7 mb-7"
-              />
+              <img src={img10} className="md:max-w-5xl mt-7 mb-7" />
               <li className="mb-2">
                 Change your settings to match the settings in the orange box
                 shown in the image above
@@ -550,10 +527,7 @@ const HowToInstall = () => {
               CTF-BTC Copy-Trading
             </h2>
             <ul className="w-full ml-4 list-disc md:pl-6">
-              <img
-                src="./src/assets/11.jpg"
-                className="md:max-w-5xl mt-7 mb-7 opacity"
-              />
+              <img src={img11} className="md:max-w-5xl mt-7 mb-7 opacity" />
               <li className="mb-2">
                 Go to the WunderTrading marketplace and search for Crypto
                 Trading Flow

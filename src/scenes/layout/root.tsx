@@ -12,6 +12,8 @@ import { useState } from "react";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import useMediaQuery from "../hooks/useMediaQuery";
 
+import logo from "./assets/CTF_Logo.png";
+
 export default function Root() {
   const [open, setOpen] = useState(false);
 
@@ -124,7 +126,7 @@ export default function Root() {
               <img
                 alt="logo"
                 className="w-full hover:animate-spin"
-                src="./src/assets/CTF_Logo.png"
+                src={logo}
               />
             </NavLink>
           </div>

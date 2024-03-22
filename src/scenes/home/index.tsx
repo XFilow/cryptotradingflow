@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 import { TypeAnimation } from "react-type-animation";
 import useMediaQuery from "../hooks/useMediaQuery";
+import wt from "./src/assets/wundertrading2.webp";
 
 const Home = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
@@ -56,7 +57,7 @@ const Home = () => {
             className="flex items-center"
           >
             <img
-              src="./src/assets/wundertrading2.webp"
+              src={wt}
               className={isAboveMediumScreens ? "w-12" : "w-10"}
               alt="WunderTrading"
             />
