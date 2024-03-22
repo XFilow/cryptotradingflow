@@ -13,6 +13,8 @@ import NotFound from "./scenes/layout/notfound";
 import useMediaQuery from "./scenes/hooks/useMediaQuery";
 import SearchConsole from "./scenes/serachconsole";
 
+import bg from "./assets/bg.png";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
@@ -32,7 +34,7 @@ function App() {
     <div>
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         <img
-          src="/src/assets/bg.png"
+          src={bg}
           className={`object-cover ${isAboveMediumScreens ? "" : "w-full h-full"}`}
         />
       </div>
